@@ -1,27 +1,31 @@
-
 .color-input {
-    position: relative;
-    z-index: 2;
-    margin-top: 20px;
-    max-width: 300px;
-   
-  }
-  
-  label {
-    display: block;
-    
-    margin-bottom: 8px;
-    color: #a0a0a0;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-  }
-  
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+label {
+  display: block;
+
+  margin-bottom: 8px;
+  color: #a0a0a0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* ColorInput.css */
+.color-input {
+  margin: 20px;
+}
+
+/* Add any additional styling as needed */
