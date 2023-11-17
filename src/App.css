@@ -1,0 +1,38 @@
+/* App.css */
+
+#root > div{
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.color-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two rows for color display and theme */
+  gap: 20px;
+  z-index: 1;
+}
+
+.color-section > div {
+  position: relative;
+}
+
+.color-section::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for better visibility */
+  z-index: 0;
+}
